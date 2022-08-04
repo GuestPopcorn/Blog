@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
  
-{% block content %}
-<form method="post">
+<body>
+  <form method="post">
     {% csrf_token %}
     <!-- Email input -->
     <div class="form-outline mb-4">
@@ -51,4 +51,4 @@
       </button>
     </div>
   </form>
-{% endblock %}
+</body>
